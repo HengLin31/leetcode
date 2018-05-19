@@ -29,9 +29,9 @@ public class TwoSum implements Verification<Map, Integer[]> {
     }
 
     @Override
-    public Integer[] verify(Map map) {
-        Integer[] nums = (Integer[]) map.get("nums");
-        Integer target = (Integer) map.get("target");
+    public Integer[] verify(Map... map) {
+        Integer[] nums = (Integer[]) map[0].get("nums");
+        Integer target = (Integer) map[0].get("target");
         return twoSum(nums, target);
     }
 }

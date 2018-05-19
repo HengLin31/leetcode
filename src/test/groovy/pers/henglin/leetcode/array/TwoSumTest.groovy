@@ -7,8 +7,8 @@ import spock.lang.Specification
  * Created by linheng on 2018/5/18.
  */
 class TwoSumTest extends Specification {
-    def "test two sum"(){
-        setup: "setup two sum"
+    def "test TwoSum"(){
+        setup: "setup TwoSum"
         Verification twoSum = new TwoSum()
 
         expect: "verify result"
