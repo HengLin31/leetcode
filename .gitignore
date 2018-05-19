@@ -1,9 +1,10 @@
-# intellij
+# intellij and gradle
 .idea
 .gradle
 build
 gradle
 leetcode.iml
+out
 
 #mac
 .DS_Store
