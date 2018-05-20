@@ -28,6 +28,8 @@ dependencies {
     // We use the latest groovy 2.x version for Spock testing
     compile 'org.codehaus.groovy:groovy-all:2.4.7'
 
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.4'
+
     // Use the awesome Spock testing and specification framework even with Java
     testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
     testCompile 'junit:junit:4.12'
