@@ -2,7 +2,6 @@
 .idea
 .gradle
 build
-gradle
 leetcode.iml
 out
 
