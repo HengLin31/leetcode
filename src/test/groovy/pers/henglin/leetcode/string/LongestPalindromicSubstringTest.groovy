@@ -17,7 +17,7 @@ class LongestPalindromicSubstringTest extends Specification {
 
         where: "input data set"
         input   || output
-        "babad" || "aba"
+        "babad" || "bab"
         "cbbd"  || "bb"
 
     }
