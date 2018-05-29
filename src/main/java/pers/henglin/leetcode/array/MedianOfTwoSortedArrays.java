@@ -7,33 +7,53 @@ import pers.henglin.leetcode.Verification;
  * Created by linheng on 2018/5/21.
  */
 public class MedianOfTwoSortedArrays implements Verification<Integer[], Double> {
-    private Double medianOfTwoSortedArrays(Integer[] A, Integer[] B){
-        int m = A.length;
-        int n = B.length;
-        if(m > n){// to ensure m<=n
-            Integer[] temp = A; A = B; B = temp;
-            Integer tmp = m; m = n; n = tmp;
+    private Double medianOfTwoSortedArrays(Integer[] num1, Integer[] num2){
+        int num1Len = num1.length;
+        int num2Len = num2.length;
+        if(num1Len > num2Len){// to ensure num1Len <= num2Len
+            Integer[] temp = num1;
+            num1 = num2;
+            num2 = temp;
+
+            Integer tmp = num1Len;
+            num1Len = num2Len;
+            num2Len = tmp;
         }
-        int iMin = 0, iMax = m, halfLen = (m + n + 1) / 2;
-        while (iMin <= iMax) {
-            int i = (iMin + iMax) / 2;
-            int j = halfLen - i;
-            if (i < iMax && B[j-1] > A[i]){
-                iMin = iMin + 1; // i is too small
-            }else if (i > iMin && A[i-1] > B[j]) {
-                iMax = iMax - 1; // i is too big
-            }else{// i is perfect
-                double maxLeft = 0;
-                if (i == 0) { maxLeft = B[j-1]; }
-                else if (j == 0) { maxLeft = A[i-1]; }
-                else { maxLeft = Math.max(A[i-1], B[j-1]); }
-                if ( (m + n) % 2 == 1 ) { return maxLeft; }
+        int low = 0;
+        int high = num1Len;
+        int halfLen = (num1Len + num2Len + 1) / 2;
+        while (low <= high) {
+            int mid1 = (low + high) / 2;
+            int mid2 = halfLen - mid1;
+            // mid1 is too small
+            if (mid1 < high && num2[mid2 - 1] > num1[mid1]){
+                low = low + 1;
+            // mid1 is too big
+            }else if (mid1 > low && num1[mid1 - 1] > num2[mid2]) {
+                high = high - 1;
+            }else{// mid1 is perfect
+                double maxLeft;
+                if (mid1 == 0){
+                    maxLeft = num2[mid2 - 1];
+                }else if(mid2 == 0){
+                    maxLeft = num1[mid1 - 1];
+                }else{
+                    //C(k-1)
+                    maxLeft = Math.max(num1[mid1 - 1], num2[mid2 - 1]);
+                }
+                if((num1Len + num2Len) % 2 == 1 ){
+                    return maxLeft;
+                }
 
-                int minRight = 0;
-                if (i == m) { minRight = B[j]; }
-                else if (j == n) { minRight = A[i]; }
-                else { minRight = Math.min(B[j], A[i]); }
-
+                int minRight;
+                if(mid1 == num1Len){
+                    minRight = num2[mid2];
+                }else if(mid2 == num2Len){
+                    minRight = num1[mid1];
+                }else{
+                    //C(k)
+                    minRight = Math.min(num2[mid2], num1[mid1]);
+                }
                 return (maxLeft + minRight) / 2.0;
             }
         }
