@@ -6,10 +6,10 @@ import spock.lang.Specification
 /**
  * Created by linheng on 2018/5/24.
  */
-class SubmissionDetailTest extends Specification {
-    def "test SubmissionDetail"() {
-        setup: "setup SubmissionDetail"
-        Verification submissionDetail = new SubmissionDetail()
+class ReverseIntegerTest extends Specification {
+    def "test ReverseInteger"() {
+        setup: "setup ReverseInteger"
+        Verification submissionDetail = new ReverseInteger()
 
         expect: "verify result"
         submissionDetail.verify(input) == output
