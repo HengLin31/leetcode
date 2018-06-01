@@ -21,6 +21,7 @@ public class TwoSum implements Verification<Map, Integer[]> {
                 //so get first value index
                 result[0] = firstValAndFirstValIndexMapping.get(firstVal);
                 result[1] = index;//set second value index
+                return result;
             }
             //Map<firstVal, firstValIndex>
             firstValAndFirstValIndexMapping.put(nums[index], index);
