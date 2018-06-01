@@ -7,12 +7,12 @@ import spock.lang.Specification
  * Created by linheng on 2018/5/20.
  */
 class LongestSubstringWithoutRepeatingCharactersTest extends Specification {
-    def "test LongestSubstringWithoutRepeatingCharactersTest"(){
-        setup: "setup LongestSubstringWithoutRepeatingCharactersTest"
-        Verification longestSubstringWithoutRepeatingCharacters = new LongestSubstringWithoutRepeatingCharacters()
+    def "test LongestSubstringWithoutRepeatingCharacters"(){
+        setup: "setup LongestSubstringWithoutRepeatingCharacters"
+        Verification verification = new LongestSubstringWithoutRepeatingCharacters()
 
         expect: "verify result"
-        longestSubstringWithoutRepeatingCharacters.verify(input) == output
+        verification.verify(input) == output
 
         where: "input data set"
         input       || output

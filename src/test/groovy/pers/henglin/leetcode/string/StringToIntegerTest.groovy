@@ -9,10 +9,10 @@ import spock.lang.Specification
 class StringToIntegerTest extends Specification {
     def "test StringToInteger"() {
         setup: "setup StringToInteger"
-        Verification stringToInteger = new StringToInteger()
+        Verification verification = new StringToInteger()
 
         expect: "verify result"
-        stringToInteger.verify(input) == output
+        verification.verify(input) == output
 
         where: "input data set"
         input               || output

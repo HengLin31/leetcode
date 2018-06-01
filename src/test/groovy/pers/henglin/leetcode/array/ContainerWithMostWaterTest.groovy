@@ -9,10 +9,10 @@ import spock.lang.Specification
 class ContainerWithMostWaterTest extends Specification {
     def "test ContainerWithMostWater"(){
         setup: "setup ContainerWithMostWater"
-        Verification containerWithMostWater = new ContainerWithMostWater()
+        Verification verification = new ContainerWithMostWater()
 
         expect: "verify result"
-        containerWithMostWater.verify(input as Integer[]) == output
+        verification.verify(input as Integer[]) == output
 
         where: "input data set"
         input                       || output

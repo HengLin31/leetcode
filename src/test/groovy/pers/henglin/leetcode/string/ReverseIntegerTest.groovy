@@ -9,10 +9,10 @@ import spock.lang.Specification
 class ReverseIntegerTest extends Specification {
     def "test ReverseInteger"() {
         setup: "setup ReverseInteger"
-        Verification submissionDetail = new ReverseInteger()
+        Verification verification = new ReverseInteger()
 
         expect: "verify result"
-        submissionDetail.verify(input) == output
+        verification.verify(input) == output
 
         where: "input data set"
         input  || output

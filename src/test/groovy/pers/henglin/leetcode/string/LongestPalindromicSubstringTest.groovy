@@ -10,10 +10,10 @@ import spock.lang.Specification
 class LongestPalindromicSubstringTest extends Specification {
     def "test LongestPalindromicSubstring"(){
         setup: "setup LongestPalindromicSubstring"
-        Verification longestPalindromicSubstring = new LongestPalindromicSubstring()
+        Verification verification = new LongestPalindromicSubstring()
 
         expect: "verify result"
-        longestPalindromicSubstring.verify(input) == output
+        verification.verify(input) == output
 
         where: "input data set"
         input   || output

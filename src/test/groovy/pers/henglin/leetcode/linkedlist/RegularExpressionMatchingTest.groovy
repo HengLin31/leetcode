@@ -10,10 +10,10 @@ import spock.lang.Specification
 class RegularExpressionMatchingTest extends Specification {
     def "test RegularExpressionMatching"(){
         setup: "setup RegularExpressionMatching"
-        Verification regularExpressionMatching = new RegularExpressionMatching()
+        Verification verification = new RegularExpressionMatching()
 
         expect: "verify result"
-        regularExpressionMatching.verify(input as String[]) == output
+        verification.verify(input as String[]) == output
 
         where: "input data set"
         input                           || output

@@ -9,10 +9,10 @@ import spock.lang.Specification
 class TwoSumTest extends Specification {
     def "test TwoSum"(){
         setup: "setup TwoSum"
-        Verification twoSum = new TwoSum()
+        Verification verification = new TwoSum()
 
         expect: "verify result"
-        twoSum.verify(input) == output as Integer[]
+        verification.verify(input) == output as Integer[]
 
         where: "input data set"
         input                                              || output

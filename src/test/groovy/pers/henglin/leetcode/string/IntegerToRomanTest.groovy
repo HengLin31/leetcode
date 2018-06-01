@@ -9,10 +9,10 @@ import spock.lang.Specification
 class IntegerToRomanTest extends Specification {
     def "test IntegerToRoman"(){
         setup: "setup IntegerToRoman"
-        Verification integerToRoman = new IntegerToRoman()
+        Verification verification = new IntegerToRoman()
 
         expect: "verify result"
-        integerToRoman.verify(input) == output
+        verification.verify(input) == output
 
         where: "input data set"
         input   || output

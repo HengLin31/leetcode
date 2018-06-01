@@ -10,11 +10,11 @@ import spock.lang.Specification
 class AddTwoNumbersTest extends Specification{
     def "test AddTwoNumbers"(){
         given: "given AddTwoNumbers"
-        Verification addTwoNumbers = new AddTwoNumbers()
+        Verification verification = new AddTwoNumbers()
         ListNode listNode = new ListNode()//setup ListNode to build result set
 
         expect: "verify result"
-        listNode.listNode2array(listNode.init(result as int[])) as int[] == listNode.listNode2array(addTwoNumbers.verify(listNode.init(l1 as int[]), listNode.init(l2 as int[]))) as int[]
+        listNode.listNode2array(listNode.init(result as int[])) as int[] == listNode.listNode2array(verification.verify(listNode.init(l1 as int[]), listNode.init(l2 as int[]))) as int[]
 
         where: "input data set"
         l1        | l2        || result

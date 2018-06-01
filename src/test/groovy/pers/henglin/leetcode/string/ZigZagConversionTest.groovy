@@ -9,10 +9,10 @@ import spock.lang.Specification
 class ZigZagConversionTest extends Specification {
     def "test ZigZagConversion"(){
         setup: "setup ZigZagConversion"
-        Verification zigZagConversion = new ZigZagConversion()
+        Verification verification = new ZigZagConversion()
 
         expect: "verify result"
-        zigZagConversion.verify(input) == output
+        verification.verify(input) == output
 
         where: "input data set"
         input                                              || output
