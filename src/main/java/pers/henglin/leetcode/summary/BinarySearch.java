@@ -20,7 +20,7 @@ public class BinarySearch {
                 high = mid;
             }
         }
-        // After quitting from the loop, our invariant relation nums[start] < target <= nums[end]  still maintains since we don’t modify it during the loop.
+        // After quitting from the loop, our invariant relation nums[start] < target <= nums[end]  still maintains since we don't modify it during the loop.
         // If target == nums[end], we should return end with no doubt. If nums[start] < target < nums[end], then the insert position is end.
         return low;
     }

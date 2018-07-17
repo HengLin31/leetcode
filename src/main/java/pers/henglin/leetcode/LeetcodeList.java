@@ -21,5 +21,7 @@ public class LeetcodeList {
         ContainerWithMostWater                      no011;
         IntegerToRoman                              no012;
         RomanToInteger                              no013;
+        LongestCommonPrefix                         no014;
+        ThreeSum                                    no015;
     }
 }
