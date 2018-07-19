@@ -5,6 +5,7 @@ import pers.henglin.leetcode.dp.*;
 import pers.henglin.leetcode.linkedlist.*;
 import pers.henglin.leetcode.math.PalindromeNumber;
 import pers.henglin.leetcode.string.*;
+import pers.henglin.leetcode.tree.BinaryTreePreorderTraversal;
 
 public class LeetcodeList {
     private void questionNumber(){
@@ -23,5 +24,7 @@ public class LeetcodeList {
         RomanToInteger                              no013;
         LongestCommonPrefix                         no014;
         ThreeSum                                    no015;
+
+        BinaryTreePreorderTraversal                 no144;
     }
 }
