@@ -14,6 +14,18 @@ public class TreeNode {
         this.right = null;
     }
 
+    public Integer getValue() {
+        return value;
+    }
+
+    public TreeNode getLeft() {
+        return left;
+    }
+
+    public TreeNode getRight() {
+        return right;
+    }
+
     public static TreeNode initBinarySearchTreeByArray(Integer[] arr){
         if(0 == arr.length){
             return null;
