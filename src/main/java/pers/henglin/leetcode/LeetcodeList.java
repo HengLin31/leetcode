@@ -24,6 +24,8 @@ public class LeetcodeList {
         RomanToInteger                              no013;
         LongestCommonPrefix                         no014;
         ThreeSum                                    no015;
+        ThreeSumClosest                             no016;
+        LetterCombinationsOfAPhoneNumber            no017;
 
         BinaryTreePreorderTraversal                 no144;
     }
