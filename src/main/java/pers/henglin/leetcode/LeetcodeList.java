@@ -26,6 +26,7 @@ public class LeetcodeList {
         ThreeSum                                    no015;
         ThreeSumClosest                             no016;
         LetterCombinationsOfAPhoneNumber            no017;
+        FourSum                                     no018;
 
         BinaryTreePreorderTraversal                 no144;
     }
