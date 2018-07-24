@@ -28,7 +28,8 @@ public class LeetcodeList {
         LetterCombinationsOfAPhoneNumber            no017;
         FourSum                                     no018;
         RemoveNthNodeFromEndOfList                  no019;
-
+        ValidParentheses                            no020;
+        
         BinaryTreePreorderTraversal                 no144;
     }
 }
