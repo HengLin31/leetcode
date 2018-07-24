@@ -29,7 +29,8 @@ public class LeetcodeList {
         FourSum                                     no018;
         RemoveNthNodeFromEndOfList                  no019;
         ValidParentheses                            no020;
-        
+        MergeTwoSortedLists                         no021;
+
         BinaryTreePreorderTraversal                 no144;
     }
 }
