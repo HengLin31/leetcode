@@ -25,9 +25,9 @@ public class RemoveNthNodeFromEndOfList implements Verification<Map, ListNode> {
 
     @Override
     public ListNode verify(Map... input) {
-        Map parmas = input[0];
-        ListNode head = (ListNode) parmas.get("head");
-        int n = (int) parmas.get("n");
+        Map params = input[0];
+        ListNode head = (ListNode) params.get("head");
+        int n = (int) params.get("n");
         return removeNthNodeFromEndOfList(head, n);
     }
 }
