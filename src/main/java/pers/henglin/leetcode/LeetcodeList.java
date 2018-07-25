@@ -31,6 +31,7 @@ public class LeetcodeList {
         ValidParentheses                            no020;
         MergeTwoSortedLists                         no021;
         GenerateParentheses                         no022;
+        MergeKSortedLists                           no023;
 
         BinaryTreePreorderTraversal                 no144;
     }
