@@ -30,6 +30,7 @@ public class LeetcodeList {
         RemoveNthNodeFromEndOfList                  no019;
         ValidParentheses                            no020;
         MergeTwoSortedLists                         no021;
+        GenerateParentheses                         no022;
 
         BinaryTreePreorderTraversal                 no144;
     }
