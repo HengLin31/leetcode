@@ -3,7 +3,7 @@ package pers.henglin.leetcode;
 import pers.henglin.leetcode.array.*;
 import pers.henglin.leetcode.dp.*;
 import pers.henglin.leetcode.linkedlist.*;
-import pers.henglin.leetcode.math.PalindromeNumber;
+import pers.henglin.leetcode.math.*;
 import pers.henglin.leetcode.string.*;
 import pers.henglin.leetcode.tree.BinaryTreePreorderTraversal;
 
@@ -32,6 +32,7 @@ public class LeetcodeList {
         MergeTwoSortedLists                         no021;
         GenerateParentheses                         no022;
         MergeKSortedLists                           no023;
+        SwapNodesInPairs                            no024;
 
         BinaryTreePreorderTraversal                 no144;
     }
