@@ -1,7 +1,6 @@
-package pers.henglin.leetcode.linkedlist
+package pers.henglin.leetcode.dp
 
 import pers.henglin.leetcode.Verification
-import pers.henglin.leetcode.dp.RegularExpressionMatching
 import spock.lang.Specification
 
 /**
