@@ -33,6 +33,7 @@ public class LeetcodeList {
         GenerateParentheses                         no022;
         MergeKSortedLists                           no023;
         SwapNodesInPairs                            no024;
+        DivideTwoIntegers                           no025;
 
         BinaryTreePreorderTraversal                 no144;
     }
