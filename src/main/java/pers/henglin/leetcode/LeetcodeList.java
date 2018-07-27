@@ -34,6 +34,7 @@ public class LeetcodeList {
         MergeKSortedLists                           no023;
         SwapNodesInPairs                            no024;
         DivideTwoIntegers                           no025;
+        ReverseNodesInKGroup                        no026;
 
         BinaryTreePreorderTraversal                 no144;
     }
