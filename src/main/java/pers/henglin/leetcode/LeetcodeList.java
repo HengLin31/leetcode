@@ -33,8 +33,10 @@ public class LeetcodeList {
         GenerateParentheses                         no022;
         MergeKSortedLists                           no023;
         SwapNodesInPairs                            no024;
-        DivideTwoIntegers                           no025;
-        ReverseNodesInKGroup                        no026;
+        ReverseNodesInKGroup                        no025;
+        RemoveDuplicatesFromSortedArray             no026;
+        
+        DivideTwoIntegers                           no029;
 
         BinaryTreePreorderTraversal                 no144;
     }
