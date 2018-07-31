@@ -38,6 +38,7 @@ public class LeetcodeList {
         RemoveElement                               no027;
         ImplementStrStr                             no028;
         DivideTwoIntegers                           no029;
+        SubstringWithConcatenationOfAllWords        no030;
 
         BinaryTreePreorderTraversal                 no144;
     }
