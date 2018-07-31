@@ -36,7 +36,7 @@ public class LeetcodeList {
         ReverseNodesInKGroup                        no025;
         RemoveDuplicatesFromSortedArray             no026;
         RemoveElement                               no027;
-
+        ImplementStrStr                             no028;
         DivideTwoIntegers                           no029;
 
         BinaryTreePreorderTraversal                 no144;
