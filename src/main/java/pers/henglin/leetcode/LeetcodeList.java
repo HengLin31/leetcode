@@ -39,6 +39,7 @@ public class LeetcodeList {
         ImplementStrStr                             no028;
         DivideTwoIntegers                           no029;
         SubstringWithConcatenationOfAllWords        no030;
+        NextPermutation                             no031;
 
         BinaryTreePreorderTraversal                 no144;
     }
