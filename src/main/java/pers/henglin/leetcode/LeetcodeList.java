@@ -41,6 +41,7 @@ public class LeetcodeList {
         SubstringWithConcatenationOfAllWords        no030;
         NextPermutation                             no031;
         LongestValidParentheses                     no032;
+        SearchInRotatedSortedArray                  no033;
 
         BinaryTreePreorderTraversal                 no144;
     }
