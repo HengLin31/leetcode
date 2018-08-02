@@ -40,6 +40,7 @@ public class LeetcodeList {
         DivideTwoIntegers                           no029;
         SubstringWithConcatenationOfAllWords        no030;
         NextPermutation                             no031;
+        LongestValidParentheses                     no032;
 
         BinaryTreePreorderTraversal                 no144;
     }
