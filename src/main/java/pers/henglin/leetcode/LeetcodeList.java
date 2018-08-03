@@ -43,6 +43,7 @@ public class LeetcodeList {
         LongestValidParentheses                         no032;
         SearchInRotatedSortedArray                      no033;
         FindFirstAndLastPositionOfElementInSortedArray  no034;
+        SearchInsertPosition                            no035;
 
         BinaryTreePreorderTraversal                     no144;
     }
