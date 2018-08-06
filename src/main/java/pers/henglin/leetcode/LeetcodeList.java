@@ -2,6 +2,7 @@ package pers.henglin.leetcode;
 
 import pers.henglin.leetcode.array.*;
 import pers.henglin.leetcode.dp.*;
+import pers.henglin.leetcode.hash.SudokuSolver;
 import pers.henglin.leetcode.hash.ValidSudoku;
 import pers.henglin.leetcode.linkedlist.*;
 import pers.henglin.leetcode.math.*;
@@ -46,6 +47,7 @@ public class LeetcodeList {
         FindFirstAndLastPositionOfElementInSortedArray  no034;
         SearchInsertPosition                            no035;
         ValidSudoku                                     no036;
+        SudokuSolver                                    no037;
 
         BinaryTreePreorderTraversal                     no144;
     }
