@@ -49,6 +49,7 @@ public class LeetcodeList {
         ValidSudoku                                     no036;
         SudokuSolver                                    no037;
         CountAndSay                                     no038;
+        CombinationSum                                  no039;
 
         BinaryTreePreorderTraversal                     no144;
     }
