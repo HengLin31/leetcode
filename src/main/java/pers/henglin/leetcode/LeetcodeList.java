@@ -48,6 +48,7 @@ public class LeetcodeList {
         SearchInsertPosition                            no035;
         ValidSudoku                                     no036;
         SudokuSolver                                    no037;
+        CountAndSay                                     no038;
 
         BinaryTreePreorderTraversal                     no144;
     }
