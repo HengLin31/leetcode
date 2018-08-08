@@ -51,6 +51,7 @@ public class LeetcodeList {
         CountAndSay                                     no038;
         CombinationSum                                  no039;
         CombinationSumII                                no040;
+        FirstMissingPositive                            no041;
 
         BinaryTreePreorderTraversal                     no144;
     }
