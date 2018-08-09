@@ -52,6 +52,7 @@ public class LeetcodeList {
         CombinationSum                                  no039;
         CombinationSumII                                no040;
         FirstMissingPositive                            no041;
+        TrappingRainWater                               no042;
 
         BinaryTreePreorderTraversal                     no144;
     }
