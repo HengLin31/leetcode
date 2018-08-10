@@ -55,6 +55,7 @@ public class LeetcodeList {
         TrappingRainWater                               no042;
         MultiplyStrings                                 no043;
         WildcardMatching                                no044;
+        JumpGameII                                      no045;
 
         BinaryTreePreorderTraversal                     no144;
     }
