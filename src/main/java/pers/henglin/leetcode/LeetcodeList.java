@@ -54,6 +54,7 @@ public class LeetcodeList {
         FirstMissingPositive                            no041;
         TrappingRainWater                               no042;
         MultiplyStrings                                 no043;
+        WildcardMatching                                no044;
 
         BinaryTreePreorderTraversal                     no144;
     }
