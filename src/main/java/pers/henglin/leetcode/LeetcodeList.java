@@ -57,6 +57,7 @@ public class LeetcodeList {
         WildcardMatching                                no044;
         JumpGameII                                      no045;
         Permutations                                    no046;
+        PermutationsII                                  no047;
 
         BinaryTreePreorderTraversal                     no144;
     }
