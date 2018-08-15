@@ -59,6 +59,7 @@ public class LeetcodeList {
         Permutations                                    no046;
         PermutationsII                                  no047;
         RotateImage                                     no048;
+        GroupAnagrams                                   no049;
 
         BinaryTreePreorderTraversal                     no144;
     }
