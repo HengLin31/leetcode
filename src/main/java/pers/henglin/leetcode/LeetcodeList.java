@@ -58,6 +58,7 @@ public class LeetcodeList {
         JumpGameII                                      no045;
         Permutations                                    no046;
         PermutationsII                                  no047;
+        RotateImage                                     no048;
 
         BinaryTreePreorderTraversal                     no144;
     }
