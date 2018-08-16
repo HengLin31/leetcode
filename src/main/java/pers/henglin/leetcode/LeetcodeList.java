@@ -60,6 +60,7 @@ public class LeetcodeList {
         PermutationsII                                  no047;
         RotateImage                                     no048;
         GroupAnagrams                                   no049;
+        PowXN                                           no050;
 
         BinaryTreePreorderTraversal                     no144;
     }
