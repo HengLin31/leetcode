@@ -1,13 +1,14 @@
 package pers.henglin.leetcode;
 
 import pers.henglin.leetcode.array.*;
+import pers.henglin.leetcode.backtracking.*;
 import pers.henglin.leetcode.dp.*;
 import pers.henglin.leetcode.hash.SudokuSolver;
 import pers.henglin.leetcode.hash.ValidSudoku;
 import pers.henglin.leetcode.linkedlist.*;
 import pers.henglin.leetcode.math.*;
 import pers.henglin.leetcode.string.*;
-import pers.henglin.leetcode.tree.BinaryTreePreorderTraversal;
+import pers.henglin.leetcode.tree.*;
 
 public class LeetcodeList {
     private void questionNumber(){
@@ -61,6 +62,7 @@ public class LeetcodeList {
         RotateImage                                     no048;
         GroupAnagrams                                   no049;
         PowXN                                           no050;
+        NQueens                                         no051;
 
         BinaryTreePreorderTraversal                     no144;
     }
