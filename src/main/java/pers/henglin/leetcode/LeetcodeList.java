@@ -63,6 +63,7 @@ public class LeetcodeList {
         GroupAnagrams                                   no049;
         PowXN                                           no050;
         NQueens                                         no051;
+        NQueensII                                       no052;
 
         BinaryTreePreorderTraversal                     no144;
     }
