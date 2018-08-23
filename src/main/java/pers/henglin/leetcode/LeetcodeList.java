@@ -66,6 +66,7 @@ public class LeetcodeList {
         NQueensII                                       no052;
         MaximumSubarray                                 no053;
         SpiralMatrix                                    no054;
+        JumpGame                                        no055;
 
         BinaryTreePreorderTraversal                     no144;
     }
