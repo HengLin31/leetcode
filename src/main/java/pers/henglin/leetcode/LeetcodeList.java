@@ -68,6 +68,7 @@ public class LeetcodeList {
         SpiralMatrix                                    no054;
         JumpGame                                        no055;
         MergeIntervals                                  no056;
+        InsertInterval                                  no057;
 
         BinaryTreePreorderTraversal                     no144;
     }
