@@ -69,6 +69,7 @@ public class LeetcodeList {
         JumpGame                                        no055;
         MergeIntervals                                  no056;
         InsertInterval                                  no057;
+        LengthOfLastWord                                no058;
 
         BinaryTreePreorderTraversal                     no144;
     }
