@@ -70,6 +70,7 @@ public class LeetcodeList {
         MergeIntervals                                  no056;
         InsertInterval                                  no057;
         LengthOfLastWord                                no058;
+        SpiralMatrixII                                  no059;
 
         BinaryTreePreorderTraversal                     no144;
     }
