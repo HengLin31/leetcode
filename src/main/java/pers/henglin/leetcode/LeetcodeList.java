@@ -71,6 +71,7 @@ public class LeetcodeList {
         InsertInterval                                  no057;
         LengthOfLastWord                                no058;
         SpiralMatrixII                                  no059;
+        PermutationSequence                             no060;
 
         BinaryTreePreorderTraversal                     no144;
     }
