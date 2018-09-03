@@ -73,6 +73,7 @@ public class LeetcodeList {
         SpiralMatrixII                                  no059;
         PermutationSequence                             no060;
         RotateList                                      no061;
+        UniquePaths                                     no062;
 
         BinaryTreePreorderTraversal                     no144;
     }
