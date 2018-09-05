@@ -74,6 +74,7 @@ public class LeetcodeList {
         PermutationSequence                             no060;
         RotateList                                      no061;
         UniquePaths                                     no062;
+        UniquePathsII                                   no063;
 
         BinaryTreePreorderTraversal                     no144;
     }
