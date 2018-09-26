@@ -77,6 +77,7 @@ public class LeetcodeList {
         UniquePathsII                                   no063;
         MinimumPathSum                                  no064;
         ValidNumber                                     no065;
+        PlusOne                                         no066;
 
         BinaryTreePreorderTraversal                     no144;
     }
