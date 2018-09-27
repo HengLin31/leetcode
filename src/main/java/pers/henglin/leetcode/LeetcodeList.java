@@ -79,6 +79,7 @@ public class LeetcodeList {
         ValidNumber                                     no065;
         PlusOne                                         no066;
         AddBinary                                       no067;
+        TextJustification                               no068;
 
         BinaryTreePreorderTraversal                     no144;
     }
