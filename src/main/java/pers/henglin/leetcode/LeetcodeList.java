@@ -80,6 +80,7 @@ public class LeetcodeList {
         PlusOne                                         no066;
         AddBinary                                       no067;
         TextJustification                               no068;
+        SqrtX                                           n0069;
 
         BinaryTreePreorderTraversal                     no144;
     }
