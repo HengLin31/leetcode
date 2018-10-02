@@ -83,6 +83,7 @@ public class LeetcodeList {
         SqrtX                                           no069;
         ClimbingStairs                                  no070;
         SimplifyPath                                    no071;
+        EditDistance                                    no072;
 
         BinaryTreePreorderTraversal                     no144;
     }
