@@ -82,6 +82,7 @@ public class LeetcodeList {
         TextJustification                               no068;
         SqrtX                                           no069;
         ClimbingStairs                                  no070;
+        SimplifyPath                                    no071;
 
         BinaryTreePreorderTraversal                     no144;
     }
