@@ -84,6 +84,7 @@ public class LeetcodeList {
         ClimbingStairs                                  no070;
         SimplifyPath                                    no071;
         EditDistance                                    no072;
+        SetMatrixZeroes                                 no073;
 
         BinaryTreePreorderTraversal                     no144;
     }
