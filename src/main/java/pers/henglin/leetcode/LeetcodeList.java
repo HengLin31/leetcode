@@ -86,6 +86,7 @@ public class LeetcodeList {
         EditDistance                                    no072;
         SetMatrixZeroes                                 no073;
         SearchA2DMatrix                                 no074;
+        SortColors                                      no075;
 
         BinaryTreePreorderTraversal                     no144;
     }
