@@ -87,6 +87,7 @@ public class LeetcodeList {
         SetMatrixZeroes                                 no073;
         SearchA2DMatrix                                 no074;
         SortColors                                      no075;
+        MinimumWindowSubstring                          no076;
 
         BinaryTreePreorderTraversal                     no144;
     }
