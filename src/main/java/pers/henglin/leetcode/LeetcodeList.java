@@ -3,8 +3,7 @@ package pers.henglin.leetcode;
 import pers.henglin.leetcode.array.*;
 import pers.henglin.leetcode.backtracking.*;
 import pers.henglin.leetcode.dp.*;
-import pers.henglin.leetcode.hash.SudokuSolver;
-import pers.henglin.leetcode.hash.ValidSudoku;
+import pers.henglin.leetcode.hash.*;
 import pers.henglin.leetcode.linkedlist.*;
 import pers.henglin.leetcode.math.*;
 import pers.henglin.leetcode.string.*;
@@ -88,6 +87,7 @@ public class LeetcodeList {
         SearchA2DMatrix                                 no074;
         SortColors                                      no075;
         MinimumWindowSubstring                          no076;
+        Combinations                                    no077;
 
         BinaryTreePreorderTraversal                     no144;
     }
