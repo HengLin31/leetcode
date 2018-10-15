@@ -88,6 +88,7 @@ public class LeetcodeList {
         SortColors                                      no075;
         MinimumWindowSubstring                          no076;
         Combinations                                    no077;
+        Subsets                                         no078;
 
         BinaryTreePreorderTraversal                     no144;
     }
