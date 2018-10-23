@@ -91,6 +91,7 @@ public class LeetcodeList {
         Subsets                                         no078;
         WordSearch                                      no079;
         RemoveDuplicatesFromSortedArrayII               no080;
+        SearchInRotatedSortedArrayII                    no081;
 
         BinaryTreePreorderTraversal                     no144;
     }
