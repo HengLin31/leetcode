@@ -92,6 +92,7 @@ public class LeetcodeList {
         WordSearch                                      no079;
         RemoveDuplicatesFromSortedArrayII               no080;
         SearchInRotatedSortedArrayII                    no081;
+        RemoveDuplicatesFromSortedListII                no082;
 
         BinaryTreePreorderTraversal                     no144;
     }
