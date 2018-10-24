@@ -93,7 +93,7 @@ public class LeetcodeList {
         RemoveDuplicatesFromSortedArrayII               no080;
         SearchInRotatedSortedArrayII                    no081;
         RemoveDuplicatesFromSortedListII                no082;
-
+        RemoveDuplicatesFromSortedList                  no083;
         BinaryTreePreorderTraversal                     no144;
     }
 }
