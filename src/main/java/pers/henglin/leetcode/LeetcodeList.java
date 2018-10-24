@@ -94,6 +94,8 @@ public class LeetcodeList {
         SearchInRotatedSortedArrayII                    no081;
         RemoveDuplicatesFromSortedListII                no082;
         RemoveDuplicatesFromSortedList                  no083;
+        LargestRectangleInHistogram                     no084;
+
         BinaryTreePreorderTraversal                     no144;
     }
 }
