@@ -96,6 +96,7 @@ public class LeetcodeList {
         RemoveDuplicatesFromSortedList                  no083;
         LargestRectangleInHistogram                     no084;
         MaximalRectangle                                no085;
+        PartitionList                                   no086;
 
         BinaryTreePreorderTraversal                     no144;
     }
