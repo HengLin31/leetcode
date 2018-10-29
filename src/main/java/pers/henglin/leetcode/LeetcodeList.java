@@ -97,6 +97,7 @@ public class LeetcodeList {
         LargestRectangleInHistogram                     no084;
         MaximalRectangle                                no085;
         PartitionList                                   no086;
+        ScrambleString                                  no087;
 
         BinaryTreePreorderTraversal                     no144;
     }
