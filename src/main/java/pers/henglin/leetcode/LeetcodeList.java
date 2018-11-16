@@ -99,7 +99,7 @@ public class LeetcodeList {
         PartitionList                                   no086;
         ScrambleString                                  no087;
         MergeSortedArray                                no088;
-        //GrayCode                                        no089;
+        GrayCode                                        no089;
 
         BinaryTreePreorderTraversal                     no144;
     }
