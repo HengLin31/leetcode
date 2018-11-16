@@ -98,6 +98,8 @@ public class LeetcodeList {
         MaximalRectangle                                no085;
         PartitionList                                   no086;
         ScrambleString                                  no087;
+        MergeSortedArray                                no088;
+        //GrayCode                                        no089;
 
         BinaryTreePreorderTraversal                     no144;
     }
