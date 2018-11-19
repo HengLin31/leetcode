@@ -100,6 +100,7 @@ public class LeetcodeList {
         ScrambleString                                  no087;
         MergeSortedArray                                no088;
         GrayCode                                        no089;
+        SubsetsII                                       no090;
 
         BinaryTreePreorderTraversal                     no144;
     }
