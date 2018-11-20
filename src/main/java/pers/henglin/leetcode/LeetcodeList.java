@@ -101,6 +101,7 @@ public class LeetcodeList {
         MergeSortedArray                                no088;
         GrayCode                                        no089;
         SubsetsII                                       no090;
+        DecodeWays                                      no091;
 
         BinaryTreePreorderTraversal                     no144;
     }
