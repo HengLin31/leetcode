@@ -102,6 +102,7 @@ public class LeetcodeList {
         GrayCode                                        no089;
         SubsetsII                                       no090;
         DecodeWays                                      no091;
+        ReverseLinkedListII                             no092;
 
         BinaryTreePreorderTraversal                     no144;
     }
