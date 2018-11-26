@@ -103,6 +103,7 @@ public class LeetcodeList {
         SubsetsII                                       no090;
         DecodeWays                                      no091;
         ReverseLinkedListII                             no092;
+        RestoreIPAddresses                              no093;
 
         BinaryTreePreorderTraversal                     no144;
     }
