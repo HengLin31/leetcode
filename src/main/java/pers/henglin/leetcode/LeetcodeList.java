@@ -104,6 +104,7 @@ public class LeetcodeList {
         DecodeWays                                      no091;
         ReverseLinkedListII                             no092;
         RestoreIPAddresses                              no093;
+        BinaryTreeInorderTraversal                      no094;
 
         BinaryTreePreorderTraversal                     no144;
     }
