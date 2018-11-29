@@ -1,6 +1,8 @@
 package pers.henglin.leetcode.bean;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class TreeNode {
@@ -26,6 +28,18 @@ public class TreeNode {
         return right;
     }
 
+    public void setValue(Integer value) {
+        this.value = value;
+    }
+
+    public void setLeft(TreeNode left) {
+        this.left = left;
+    }
+
+    public void setRight(TreeNode right) {
+        this.right = right;
+    }
+
     public static TreeNode initBinarySearchTreeByArray(Integer[] arr){
         if(0 == arr.length){
             return null;
@@ -35,6 +49,28 @@ public class TreeNode {
             root = addRecursive(root, arr[index]);
         }
         return root;
+    }
+
+    public static boolean isSames(List<TreeNode> treeNode1s, List<TreeNode> treenode2s){
+        if(treeNode1s.size() != treenode2s.size()){
+            return false;
+        }
+        for(int index=0; index<treeNode1s.size(); index++){
+            if(!isSame(treeNode1s.get(index), treenode2s.get(index))){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static boolean isSame(TreeNode treeNode1, TreeNode treeNode2){
+        if((null == treeNode1) && (null == treeNode2)){
+            return true;
+        }
+        if((null == treeNode1) || (null == treeNode2)){
+            return false;
+        }
+        return isSame(treeNode1.getLeft(), treeNode2.getLeft()) && isSame(treeNode1.getRight(), treeNode2.getRight());
     }
 
     /*
