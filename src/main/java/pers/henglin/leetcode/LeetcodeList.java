@@ -106,6 +106,7 @@ public class LeetcodeList {
         RestoreIPAddresses                              no093;
         BinaryTreeInorderTraversal                      no094;
         UniqueBinarySearchTreesII                       no095;
+        UniqueBinarySearchTrees                         no096;
 
         BinaryTreePreorderTraversal                     no144;
     }
