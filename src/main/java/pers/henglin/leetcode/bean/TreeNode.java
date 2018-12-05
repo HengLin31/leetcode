@@ -70,6 +70,9 @@ public class TreeNode {
         if((null == treeNode1) || (null == treeNode2)){
             return false;
         }
+        if(!treeNode1.getValue().equals(treeNode2.getValue())){
+            return false;
+        }
         return isSame(treeNode1.getLeft(), treeNode2.getLeft()) && isSame(treeNode1.getRight(), treeNode2.getRight());
     }
 
