@@ -63,7 +63,7 @@ public class TreeNode {
         return true;
     }
 
-    private static boolean isSame(TreeNode treeNode1, TreeNode treeNode2){
+    public static boolean isSame(TreeNode treeNode1, TreeNode treeNode2){
         if((null == treeNode1) && (null == treeNode2)){
             return true;
         }
