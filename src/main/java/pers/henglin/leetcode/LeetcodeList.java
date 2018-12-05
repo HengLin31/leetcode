@@ -109,6 +109,7 @@ public class LeetcodeList {
         UniqueBinarySearchTrees                         no096;
         InterleavingString                              no097;
         ValidateBinarySearchTree                        no098;
+        RecoverBinarySearchTree                         no099;
 
         BinaryTreePreorderTraversal                     no144;
     }
