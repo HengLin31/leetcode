@@ -111,6 +111,7 @@ public class LeetcodeList {
         ValidateBinarySearchTree                        no098;
         RecoverBinarySearchTree                         no099;
         SameTree                                        no100;
+        SymmetricTree                                   no101;
 
         BinaryTreePreorderTraversal                     no144;
     }
