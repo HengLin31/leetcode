@@ -116,6 +116,7 @@ public class LeetcodeList {
         BinaryTreeZigzagLevelOrderTraversal                 no103;
         MaximumDepthOfBinaryTree                            no104;
         ConstructBinaryTreeFromPreorderAndInorderTraversal  no105;
+        ConstructBinaryTreeFromInorderAndPostorderTraversal no106;
 
         BinaryTreePreorderTraversal                     no144;
     }
