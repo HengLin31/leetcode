@@ -114,6 +114,7 @@ public class LeetcodeList {
         SymmetricTree                                   no101;
         BinaryTreeLevelOrderTraversal                   no102;
         BinaryTreeZigzagLevelOrderTraversal             no103;
+        MaximumDepthOfBinaryTree                        no104;
 
         BinaryTreePreorderTraversal                     no144;
     }
