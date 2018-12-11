@@ -118,6 +118,7 @@ public class LeetcodeList {
         ConstructBinaryTreeFromPreorderAndInorderTraversal  no105;
         ConstructBinaryTreeFromInorderAndPostorderTraversal no106;
         BinaryTreeLevelOrderTraversalII                     no107;
+        ConvertSortedArrayToBinarySearchTree                no108;
 
         BinaryTreePreorderTraversal                         no144;
     }
