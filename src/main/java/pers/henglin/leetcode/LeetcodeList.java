@@ -120,6 +120,7 @@ public class LeetcodeList {
         BinaryTreeLevelOrderTraversalII                     no107;
         ConvertSortedArrayToBinarySearchTree                no108;
         ConvertSortedListToBinarySearchTree                 no109;
+        BalancedBinaryTree                                  no110;
 
         BinaryTreePreorderTraversal                         no144;
     }
