@@ -124,6 +124,7 @@ public class LeetcodeList {
         MinimumDepthOfBinaryTree                            no111;
         PathSum                                             no112;
         PathSumII                                           no113;
+        FlattenBinaryTreeToLinkedList                       no114;
 
         BinaryTreePreorderTraversal                         no144;
     }
