@@ -126,6 +126,7 @@ public class LeetcodeList {
         PathSumII                                           no113;
         FlattenBinaryTreeToLinkedList                       no114;
         DistinctSubsequences                                no115;
+        PopulatingNextRightPointersInEachNode               no116;
 
         BinaryTreePreorderTraversal                         no144;
     }
