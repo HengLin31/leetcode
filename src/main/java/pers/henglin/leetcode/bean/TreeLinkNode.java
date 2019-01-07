@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Queue;
 
 public class TreeLinkNode {
+    private static int maxLevel = 0;
+
     private Integer value;
     private TreeLinkNode left;
     private TreeLinkNode right;
@@ -76,18 +78,32 @@ public class TreeLinkNode {
         return head;
     }
 
+    private static void findLeftNode(List<TreeLinkNode> treeLinkNodes, TreeLinkNode treeLinkNode, int level){
+        if(null == treeLinkNode){
+            return;
+        }
+        //first tree node of it's level
+        if(maxLevel < level){
+            treeLinkNodes.add(treeLinkNode);
+            maxLevel = level;
+        }
+        findLeftNode(treeLinkNodes, treeLinkNode.getLeft(), level + 1);
+        findLeftNode(treeLinkNodes, treeLinkNode.getRight(), level + 1);
+    }
+
     public static List<Integer> buildTreeNextList(TreeLinkNode treeLinkNode){
+        maxLevel = 0;
+        List<TreeLinkNode> leftNodes = new LinkedList<>();
+        findLeftNode(leftNodes, treeLinkNode, 1);
         List<Integer> result = new LinkedList<>();
-        do{
-            TreeLinkNode next = treeLinkNode;
-            while(null != treeLinkNode.getNext()){
-                result.add(treeLinkNode.getValue());
-                treeLinkNode = treeLinkNode.getNext();
+        for(TreeLinkNode leftNode:leftNodes){
+            TreeLinkNode tempNode = leftNode;
+            while(null != tempNode){
+                result.add(tempNode.getValue());
+                tempNode = tempNode.getNext();
             }
-            result.add(treeLinkNode.getValue());
             result.add(null);
-            treeLinkNode = next.getLeft();
-        }while(null != treeLinkNode);
+        }
         return result;
     }
 }
