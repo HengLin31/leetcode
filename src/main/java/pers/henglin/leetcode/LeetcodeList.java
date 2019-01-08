@@ -129,6 +129,7 @@ public class LeetcodeList {
         PopulatingNextRightPointersInEachNode               no116;
         PopulatingNextRightPointersInEachNodeII             no117;
         PascalsTriangle                                     no118;
+        PascalsTriangleII                                   no119;
 
         BinaryTreePreorderTraversal                         no144;
     }
