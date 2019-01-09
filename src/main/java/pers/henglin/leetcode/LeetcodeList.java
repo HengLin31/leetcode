@@ -131,6 +131,7 @@ public class LeetcodeList {
         PascalsTriangle                                     no118;
         PascalsTriangleII                                   no119;
         Triangle                                            no120;
+        BestTimeToBuyAndSellStock                           no121;
 
         BinaryTreePreorderTraversal                         no144;
     }
