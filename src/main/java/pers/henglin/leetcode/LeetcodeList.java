@@ -134,6 +134,7 @@ public class LeetcodeList {
         BestTimeToBuyAndSellStock                           no121;
         BestTimeToBuyAndSellStockII                         no122;
         BestTimeToBuyAndSellStockIII                        no123;
+        BinaryTreeMaximumPathSum                            no124;
 
         BinaryTreePreorderTraversal                         no144;
     }
