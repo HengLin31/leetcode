@@ -137,6 +137,7 @@ public class LeetcodeList {
         BinaryTreeMaximumPathSum                            no124;
         ValidPalindrome                                     no125;
         WordLadderII                                        no126;
+        WordLadder                                          no127;
 
         BinaryTreePreorderTraversal                         no144;
     }
