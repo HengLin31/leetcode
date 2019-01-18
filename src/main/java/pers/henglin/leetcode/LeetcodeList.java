@@ -139,6 +139,7 @@ public class LeetcodeList {
         WordLadderII                                        no126;
         WordLadder                                          no127;
         LongestConsecutiveSequence                          no128;
+        SumRootToLeafNumbers                                no129;
 
         BinaryTreePreorderTraversal                         no144;
     }
