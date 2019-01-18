@@ -138,6 +138,7 @@ public class LeetcodeList {
         ValidPalindrome                                     no125;
         WordLadderII                                        no126;
         WordLadder                                          no127;
+        LongestConsecutiveSequence                          no128;
 
         BinaryTreePreorderTraversal                         no144;
     }
