@@ -141,6 +141,7 @@ public class LeetcodeList {
         LongestConsecutiveSequence                          no128;
         SumRootToLeafNumbers                                no129;
         SurroundedRegions                                   no130;
+        PalindromePartitioning                              no131;
 
         BinaryTreePreorderTraversal                         no144;
     }
