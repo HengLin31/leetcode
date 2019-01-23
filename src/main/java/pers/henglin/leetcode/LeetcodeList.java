@@ -142,6 +142,7 @@ public class LeetcodeList {
         SumRootToLeafNumbers                                no129;
         SurroundedRegions                                   no130;
         PalindromePartitioning                              no131;
+        PalindromePartitioningII                            no132;
 
         BinaryTreePreorderTraversal                         no144;
     }
