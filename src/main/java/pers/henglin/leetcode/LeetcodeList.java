@@ -145,6 +145,7 @@ public class LeetcodeList {
         PalindromePartitioning                              no131;
         PalindromePartitioningII                            no132;
         CloneGraph                                          no133;
+        GasStation                                          no134;
 
         BinaryTreePreorderTraversal                         no144;
     }
