@@ -147,6 +147,7 @@ public class LeetcodeList {
         CloneGraph                                          no133;
         GasStation                                          no134;
         Candy                                               no135;
+        SingleNumber                                        no136;
 
         BinaryTreePreorderTraversal                         no144;
     }
