@@ -150,6 +150,7 @@ public class LeetcodeList {
         SingleNumber                                        no136;
         SingleNumberII                                      no137;
         CopyListWithRandomPointer                           no138;
+        WordBreak                                           no139;
 
         BinaryTreePreorderTraversal                         no144;
     }
