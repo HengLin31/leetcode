@@ -149,6 +149,7 @@ public class LeetcodeList {
         Candy                                               no135;
         SingleNumber                                        no136;
         SingleNumberII                                      no137;
+        CopyListWithRandomPointer                           no138;
 
         BinaryTreePreorderTraversal                         no144;
     }
