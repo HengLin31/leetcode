@@ -153,6 +153,7 @@ public class LeetcodeList {
         WordBreak                                           no139;
         WordBreakII                                         no140;
         LinkedListCycle                                     no141;
+        LinkedListCycleII                                   no142;
 
         BinaryTreePreorderTraversal                         no144;
     }
