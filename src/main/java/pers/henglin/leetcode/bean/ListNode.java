@@ -34,6 +34,27 @@ public class ListNode {
         return headNode;
     }
 
+    public ListNode initHasCycle(int[] array, int cyclePosition){
+        ListNode cycleListNode = init(array);
+        ListNode head = cycleListNode;
+        if(cyclePosition >= 0){
+            while((null != cycleListNode) && (null != cycleListNode.getNext())){
+                cycleListNode = cycleListNode.getNext();
+            }
+            ListNode tempNode = head;
+            int index = 0;
+            do{
+                if(index == cyclePosition){
+                    break;
+                }
+                tempNode = tempNode.getNext();
+                index++;
+            }while(null != tempNode.getNext());
+            cycleListNode.setNext(tempNode);
+        }
+        return head;
+    }
+
     public Integer[] listNode2array(ListNode listNode){
         List<Integer> results = new LinkedList<>();
         while(listNode != null){
