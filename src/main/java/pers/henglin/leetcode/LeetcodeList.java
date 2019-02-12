@@ -152,6 +152,7 @@ public class LeetcodeList {
         CopyListWithRandomPointer                           no138;
         WordBreak                                           no139;
         WordBreakII                                         no140;
+        LinkedListCycle                                     no141;
 
         BinaryTreePreorderTraversal                         no144;
     }
