@@ -11,15 +11,15 @@ public class BinaryTreePreorderTraversal implements Verification<TreeNode, List<
     private static final boolean PRINT = true;
     private static final boolean VISIT = false;
 
-    @Override
-    public List<Integer> verify(TreeNode... input) {
-        TreeNode root = input[0];
+    private List<Integer> binaryTreePreorderTraversal(TreeNode root){
         List<Integer> result = new ArrayList<>();
         Stack<Visit> path = new Stack<>();
         path.add(new Visit(VISIT, root));
         while(!path.isEmpty()){
             Visit current = path.pop();
-            if(current.node == null) continue;
+            if(null == current.node){
+                continue;
+            }
             if(current.isPrint){
                 result.add(current.getNode().getValue());
             }else{
@@ -29,6 +29,11 @@ public class BinaryTreePreorderTraversal implements Verification<TreeNode, List<
             }
         }
         return result;
+    }
+
+    @Override
+    public List<Integer> verify(TreeNode... input) {
+        return binaryTreePreorderTraversal(input[0]);
     }
 
     private class Visit{
