@@ -156,5 +156,6 @@ public class LeetcodeList {
         LinkedListCycleII                                   no142;
         ReorderList                                         no143;
         BinaryTreePreorderTraversal                         no144;
+        BinaryTreePostorderTraversal                        no145;
     }
 }
