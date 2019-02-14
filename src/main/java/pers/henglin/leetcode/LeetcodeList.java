@@ -2,8 +2,9 @@ package pers.henglin.leetcode;
 
 import pers.henglin.leetcode.array.*;
 import pers.henglin.leetcode.backtracking.*;
+import pers.henglin.leetcode.design.*;
 import pers.henglin.leetcode.dp.*;
-import pers.henglin.leetcode.graph.CloneGraph;
+import pers.henglin.leetcode.graph.*;
 import pers.henglin.leetcode.hash.*;
 import pers.henglin.leetcode.linkedlist.*;
 import pers.henglin.leetcode.math.*;
@@ -157,5 +158,6 @@ public class LeetcodeList {
         ReorderList                                         no143;
         BinaryTreePreorderTraversal                         no144;
         BinaryTreePostorderTraversal                        no145;
+        LRUCache                                            no146;
     }
 }
