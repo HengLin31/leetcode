@@ -159,5 +159,6 @@ public class LeetcodeList {
         BinaryTreePreorderTraversal                         no144;
         BinaryTreePostorderTraversal                        no145;
         LRUCache                                            no146;
+        InsertionSortList                                   no147;
     }
 }
