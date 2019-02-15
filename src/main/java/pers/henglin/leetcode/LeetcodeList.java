@@ -161,5 +161,6 @@ public class LeetcodeList {
         LRUCache                                            no146;
         InsertionSortList                                   no147;
         SortList                                            no148;
+        MaxPointsOnALine                                    no149;
     }
 }
