@@ -1,11 +1,12 @@
 package pers.henglin.leetcode.math
 
 import pers.henglin.leetcode.Verification
+import spock.lang.Specification
 
 /**
  * Created by linheng on 2018/6/2.
  */
-class PalindromeNumberTest {
+class PalindromeNumberTest extends Specification{
     def "test PalindromeNumber"(){
         setup: "setup PalindromeNumber"
         Verification verification = new PalindromeNumber()
