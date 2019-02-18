@@ -8,6 +8,7 @@ import pers.henglin.leetcode.graph.*;
 import pers.henglin.leetcode.hash.*;
 import pers.henglin.leetcode.linkedlist.*;
 import pers.henglin.leetcode.math.*;
+import pers.henglin.leetcode.stack.*;
 import pers.henglin.leetcode.string.*;
 import pers.henglin.leetcode.tree.*;
 
@@ -162,5 +163,6 @@ public class LeetcodeList {
         InsertionSortList                                   no147;
         SortList                                            no148;
         MaxPointsOnALine                                    no149;
+        EvaluateReversePolishNotation                       no150;
     }
 }
