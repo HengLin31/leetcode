@@ -165,5 +165,6 @@ public class LeetcodeList {
         MaxPointsOnALine                                    no149;
         EvaluateReversePolishNotation                       no150;
         ReverseWordsInAString                               no151;
+        MaximumProductSubarray                              no152;
     }
 }
