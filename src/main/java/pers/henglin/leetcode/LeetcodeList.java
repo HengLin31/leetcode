@@ -164,5 +164,6 @@ public class LeetcodeList {
         SortList                                            no148;
         MaxPointsOnALine                                    no149;
         EvaluateReversePolishNotation                       no150;
+        ReverseWordsInAString                               no151;
     }
 }
