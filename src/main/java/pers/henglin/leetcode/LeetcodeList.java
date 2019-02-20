@@ -167,5 +167,6 @@ public class LeetcodeList {
         ReverseWordsInAString                               no151;
         MaximumProductSubarray                              no152;
         FindMinimumInRotatedSorted                          no153;
+        FindMinimumInRotatedSortedII                        no154;
     }
 }
