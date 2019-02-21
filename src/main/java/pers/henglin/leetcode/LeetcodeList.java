@@ -173,5 +173,6 @@ public class LeetcodeList {
         //Read N Characters Given Read4                             no157 (need to pay)
         //Read N Characters Given Read4 II - Call multiple times    no158 (need to pay)
         //Longest Substring with At Most Two Distinct Characters    no159 (need to pay)
+        IntersectionOfTwoLinkedLists                                no160;
     }
 }
