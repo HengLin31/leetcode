@@ -168,5 +168,6 @@ public class LeetcodeList {
         MaximumProductSubarray                              no152;
         FindMinimumInRotatedSorted                          no153;
         FindMinimumInRotatedSortedII                        no154;
+        MinStack                                            no155;
     }
 }
