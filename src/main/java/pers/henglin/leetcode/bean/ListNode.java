@@ -64,6 +64,33 @@ public class ListNode {
         return results.toArray(new Integer[results.size()]);
     }
 
+    public ListNode[] mergeList(int[] arrayHead1, int[] arrayHead2, int[] arrayTail){
+        ListNode listNode1 = init(arrayHead1);
+        ListNode listNode2 = init(arrayHead2);
+
+        ListNode tailNode1 = findLastNode(listNode1);
+        ListNode tailNode2 = findLastNode(listNode2);
+
+        for(int anArrayTail:arrayTail){
+            ListNode newNode = new ListNode(anArrayTail);
+            tailNode1.setNext(newNode);
+            tailNode2.setNext(newNode);
+            tailNode1 = tailNode1.getNext();
+            tailNode2 = tailNode2.getNext();
+        }
+
+        return new ListNode[]{listNode1, listNode2};
+    }
+
+    private ListNode findLastNode(ListNode listNode){
+        ListNode result = listNode;
+        while(null != listNode){
+            result = listNode;
+            listNode = listNode.next;
+        }
+        return result;
+    }
+
     public Integer getVal() {
         return val;
     }
