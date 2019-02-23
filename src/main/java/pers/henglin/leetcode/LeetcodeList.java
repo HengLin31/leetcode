@@ -175,5 +175,6 @@ public class LeetcodeList {
         //Longest Substring with At Most Two Distinct Characters    no159 (need to pay)
         IntersectionOfTwoLinkedLists                                no160;
         //One Edit Distance                                         no161 (need to pay)
+        FindPeakElement                                             no162;
     }
 }
