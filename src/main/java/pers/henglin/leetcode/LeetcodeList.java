@@ -176,5 +176,6 @@ public class LeetcodeList {
         IntersectionOfTwoLinkedLists                                no160;
         //One Edit Distance                                         no161 (need to pay)
         FindPeakElement                                             no162;
+        //Missing Ranges                                            no163 (need to pay)
     }
 }
