@@ -179,5 +179,6 @@ public class LeetcodeList {
         //Missing Ranges                                            no163 (need to pay)
         MaximumGap                                                  no164;
         CompareVersionNumbers                                       no165;
+        FractionToRecurringDecimal                                  no166;
     }
 }
