@@ -182,5 +182,6 @@ public class LeetcodeList {
         FractionToRecurringDecimal                                  no166;
         TwoSumIIInputArrayIsSorted                                  no167;
         ExcelSheetColumnTitle                                       no168;
+        MajorityElement                                             no169;
     }
 }
