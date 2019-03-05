@@ -184,5 +184,6 @@ public class LeetcodeList {
         ExcelSheetColumnTitle                                       no168;
         MajorityElement                                             no169;
         //Two Sum III - Data structure design                       no170 (need to pay)
+        ExcelSheetColumnNumber                                      no171;
     }
 }
