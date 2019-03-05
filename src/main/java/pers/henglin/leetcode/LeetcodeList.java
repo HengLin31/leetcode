@@ -183,5 +183,6 @@ public class LeetcodeList {
         TwoSumIIInputArrayIsSorted                                  no167;
         ExcelSheetColumnTitle                                       no168;
         MajorityElement                                             no169;
+        //Two Sum III - Data structure design                       no170 (need to pay)
     }
 }
