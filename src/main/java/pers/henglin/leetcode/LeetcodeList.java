@@ -185,5 +185,6 @@ public class LeetcodeList {
         MajorityElement                                             no169;
         //Two Sum III - Data structure design                       no170 (need to pay)
         ExcelSheetColumnNumber                                      no171;
+        FactorialTrailingZeroes                                     no172;
     }
 }
