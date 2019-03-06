@@ -186,5 +186,6 @@ public class LeetcodeList {
         //Two Sum III - Data structure design                       no170 (need to pay)
         ExcelSheetColumnNumber                                      no171;
         FactorialTrailingZeroes                                     no172;
+        BinarySearchTreeIterator                                    no173;
     }
 }
