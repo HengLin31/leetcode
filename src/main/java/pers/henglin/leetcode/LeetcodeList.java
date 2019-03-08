@@ -187,5 +187,6 @@ public class LeetcodeList {
         ExcelSheetColumnNumber                                      no171;
         FactorialTrailingZeroes                                     no172;
         BinarySearchTreeIterator                                    no173;
+        DungeonGame                                                 no174;
     }
 }
