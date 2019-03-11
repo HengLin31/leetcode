@@ -188,5 +188,6 @@ public class LeetcodeList {
         FactorialTrailingZeroes                                     no172;
         BinarySearchTreeIterator                                    no173;
         DungeonGame                                                 no174;
+        LargestNumber                                               no179;
     }
 }
