@@ -190,5 +190,6 @@ public class LeetcodeList {
         DungeonGame                                                 no174;
         LargestNumber                                               no179;
         //Reverse Words in a String II                              no186 (need to pay)
+        RepeatedDNASequences                                        no187;
     }
 }
