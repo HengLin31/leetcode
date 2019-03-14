@@ -2,6 +2,7 @@ package pers.henglin.leetcode;
 
 import pers.henglin.leetcode.array.*;
 import pers.henglin.leetcode.backtracking.*;
+import pers.henglin.leetcode.bit.*;
 import pers.henglin.leetcode.design.*;
 import pers.henglin.leetcode.dp.*;
 import pers.henglin.leetcode.graph.*;
@@ -193,5 +194,6 @@ public class LeetcodeList {
         RepeatedDNASequences                                        no187;
         BestTimeToBuyAndSellStockIV                                 no188;
         RotateArray                                                 no189;
+        ReverseBits                                                 no190;
     }
 }
