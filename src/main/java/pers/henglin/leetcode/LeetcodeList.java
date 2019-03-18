@@ -195,5 +195,6 @@ public class LeetcodeList {
         BestTimeToBuyAndSellStockIV                                 no188;
         RotateArray                                                 no189;
         ReverseBits                                                 no190;
+        NumberOf1Bits                                               no191;
     }
 }
