@@ -200,5 +200,6 @@ public class LeetcodeList {
         BinaryTreeRightSideView                                     no199;
         NumberOfIslands                                             no200;
         BitwiseANDOfNumbersRange                                    no201;
+        HappyNumber                                                 no202;
     }
 }
