@@ -201,5 +201,6 @@ public class LeetcodeList {
         NumberOfIslands                                             no200;
         BitwiseANDOfNumbersRange                                    no201;
         HappyNumber                                                 no202;
+        RemoveLinkedListElements                                    no203;
     }
 }
