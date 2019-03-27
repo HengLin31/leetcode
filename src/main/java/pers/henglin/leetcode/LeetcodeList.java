@@ -202,5 +202,6 @@ public class LeetcodeList {
         BitwiseANDOfNumbersRange                                    no201;
         HappyNumber                                                 no202;
         RemoveLinkedListElements                                    no203;
+        CountPrimes                                                 no204;
     }
 }
