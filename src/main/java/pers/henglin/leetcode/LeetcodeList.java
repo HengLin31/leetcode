@@ -203,5 +203,6 @@ public class LeetcodeList {
         HappyNumber                                                 no202;
         RemoveLinkedListElements                                    no203;
         CountPrimes                                                 no204;
+        IsomorphicStrings                                           no205;
     }
 }
