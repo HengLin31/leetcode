@@ -204,5 +204,6 @@ public class LeetcodeList {
         RemoveLinkedListElements                                    no203;
         CountPrimes                                                 no204;
         IsomorphicStrings                                           no205;
+        ReverseLinkedList                                           no206;
     }
 }
