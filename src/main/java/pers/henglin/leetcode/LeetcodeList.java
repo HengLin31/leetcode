@@ -205,5 +205,6 @@ public class LeetcodeList {
         CountPrimes                                                 no204;
         IsomorphicStrings                                           no205;
         ReverseLinkedList                                           no206;
+        CourseSchedule                                              no207;
     }
 }
