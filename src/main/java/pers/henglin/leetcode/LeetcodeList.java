@@ -206,5 +206,6 @@ public class LeetcodeList {
         IsomorphicStrings                                           no205;
         ReverseLinkedList                                           no206;
         CourseSchedule                                              no207;
+        ImplementTriePrefixTree                                     no208;
     }
 }
