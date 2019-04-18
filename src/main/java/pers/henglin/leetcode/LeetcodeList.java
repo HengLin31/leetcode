@@ -209,5 +209,6 @@ public class LeetcodeList {
         ImplementTriePrefixTree                                     no208;
         MinimumSizeSubarraySum                                      no209;
         CourseScheduleII                                            no210;
+        AddAndSearchWordDataStructure                               no211;
     }
 }
