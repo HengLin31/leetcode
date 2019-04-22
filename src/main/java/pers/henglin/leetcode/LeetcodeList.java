@@ -211,5 +211,6 @@ public class LeetcodeList {
         CourseScheduleII                                            no210;
         AddAndSearchWordDataStructure                               no211;
         WordSearchII                                                no212;
+        HouseRobberII                                               no213;
     }
 }
