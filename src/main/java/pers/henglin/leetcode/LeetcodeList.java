@@ -212,5 +212,6 @@ public class LeetcodeList {
         AddAndSearchWordDataStructure                               no211;
         WordSearchII                                                no212;
         HouseRobberII                                               no213;
+        ShortestPalindrome                                          no214;
     }
 }
