@@ -215,5 +215,6 @@ public class LeetcodeList {
         ShortestPalindrome                                          no214;
         KthLargestElementInAnArray                                  no215;
         CombinationSumIII                                           no216;
+        ContainsDuplicate                                           no217;
     }
 }
