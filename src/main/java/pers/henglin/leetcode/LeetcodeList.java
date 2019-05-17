@@ -217,5 +217,6 @@ public class LeetcodeList {
         CombinationSumIII                                           no216;
         ContainsDuplicate                                           no217;
         TheSkylineProblem                                           no218;
+        ContainsDuplicateII                                         no219;
     }
 }
