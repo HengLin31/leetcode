@@ -218,5 +218,6 @@ public class LeetcodeList {
         ContainsDuplicate                                           no217;
         TheSkylineProblem                                           no218;
         ContainsDuplicateII                                         no219;
+        ContainsDuplicateIII                                        no220;
     }
 }
