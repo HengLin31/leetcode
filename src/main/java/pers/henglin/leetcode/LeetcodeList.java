@@ -219,5 +219,6 @@ public class LeetcodeList {
         TheSkylineProblem                                           no218;
         ContainsDuplicateII                                         no219;
         ContainsDuplicateIII                                        no220;
+        MaximalSquare                                               no221;
     }
 }
