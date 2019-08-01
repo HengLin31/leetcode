@@ -220,5 +220,6 @@ public class LeetcodeList {
         ContainsDuplicateII                                         no219;
         ContainsDuplicateIII                                        no220;
         MaximalSquare                                               no221;
+        CountCompleteTreeNodes                                      no222;
     }
 }
